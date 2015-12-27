@@ -1,9 +1,7 @@
 # GettingAndCleaning
 For Getting and Cleaning data Course Project
 
-## Variable descriptions
-
-
+### Variable descriptions
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals were captured and filtered using a median filter and a 3rd order low pass Butterworth filter. The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter. The body linear acceleration and angular velocity were used to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag.
 
@@ -32,12 +30,6 @@ Estimated variables from these signals are:
 
 - mean(): Mean value
 - std(): Standard deviation
-
-
-## Variable names
-
-- Group.1: activity
-- Group.2: subject
 
 ### The following variables are defined according to the pattern above with a range of -1 to 1:
 
